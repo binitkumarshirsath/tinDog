@@ -1,0 +1,163 @@
+body {
+    font-family: 'Montserrat';
+}
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Montserrat-Bold';
+    font-weight: bolder;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    width: 70%;
+    margin: auto;
+    font-family: 'Monstserrat-Bold';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.container-fluid {
+    padding: 3% 15% 7% 15%;
+}
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    color: rgb(246, 224, 224);
+    font-family: 'Montserrat-Light';
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.title-image {
+    width: 60%;
+    position: absolute;
+    transform: rotate(25deg);
+    right: 30%;
+}
+
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonial sections */
+
+#testimonials {
+    background-color: #ef8172;
+    text-align: center;
+    color: white;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press */
+
+#press {
+    text-align: center;
+    background-color: #ef8172;
+}
+
+.logos {
+    width: 17%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+@media (max-width : 1200px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        padding-top: 20px;
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* Call to Action */
+#cta {
+    text-align: center;
+    line-height: 2;
+    background-color: #ff4c68;
+    color: white;
+    padding: 30px;
+}
+
+.download-footer {
+    margin: 30px 15px 0 15px;
+}
+
+/* Footer */
+
+#footer {
+    text-align: center;
+}
